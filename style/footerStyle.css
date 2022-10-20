@@ -1,0 +1,11 @@
+#footerLogo {
+    background-color: rgb(230, 0, 18);
+    color: white;
+    padding: 72px;
+}
+#logosleft {
+    margin-left: auto;    
+}
+#logosright {
+    margin-right: 1cm;
+}
