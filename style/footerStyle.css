@@ -3,9 +3,20 @@
     color: white;
     padding: 72px;
 }
-#logosleft {
-    margin-left: auto;    
-}
 #logosright {
-    margin-right: 1cm;
+    float: right;
+}
+#logosleft {
+    float: left;
+}
+.about h3 {
+    color: rgb(72, 72, 72);
+    font-weight: 700;
+    margin: 0px 0px 1em;
+    font-family: museo-sans, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+footer a {
+    color: rgb(230, 0, 18);
+    font-weight: 700;
+    border-bottom-color: transparent;
 }
