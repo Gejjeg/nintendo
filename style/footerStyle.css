@@ -3,12 +3,17 @@
     color: white;
     padding: 72px;
     display: flex;
+    height: 120px;
 }
 #logosright {
     display: flex;
+    position: absolute;
+    right: 5%;
 }
 #logosleft {
-    float: left;
+    display: flex;
+    position: absolute;
+    
 }
 .about h3 {
     color: rgb(72, 72, 72);
@@ -23,7 +28,8 @@
     display: flex;
     flex: relative;
     flex-wrap: wrap;
-    margin: 10ch 3ch ;
+    padding: 32px;
+    
 }
 .footer div {
     border-left: 0.05cm dotted grey;
@@ -64,5 +70,7 @@
 }
 ul > li {
     list-style: none;
-    margin: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    left: -40px;
 }
